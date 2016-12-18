@@ -1,6 +1,6 @@
 # The Python Challenge
 
-Solutions for the [Python Challenge](http://www.pythonchallenge.com/)
+Solutions for the [Python Challenge](http://www.pythonchallenge.com/) with Python 3.5
 
 ## Links
 
