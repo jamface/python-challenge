@@ -4,5 +4,5 @@ Solutions for the [Python Challenge](http://www.pythonchallenge.com/) with Pytho
 
 ## Links
 
-0: http://www.pythonchallenge.com/pc/def/0.html
-1: http://www.pythonchallenge.com/pc/def/map.html
+* 0: http://www.pythonchallenge.com/pc/def/0.html
+* 1: http://www.pythonchallenge.com/pc/def/map.html
