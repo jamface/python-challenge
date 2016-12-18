@@ -6,3 +6,4 @@ Solutions for the [Python Challenge](http://www.pythonchallenge.com/) with Pytho
 
 * 0: http://www.pythonchallenge.com/pc/def/0.html
 * 1: http://www.pythonchallenge.com/pc/def/map.html
+* 2: http://www.pythonchallenge.com/pc/def/ocr.html
