@@ -24,6 +24,10 @@ def run():
 def extractLink(response):
     """
     Extracts the numerical link from the response text.
+
+    Returns:
+        The second number from the response if it exists, otherwise
+        the it returns the first number.
     """
     numberList = [int(s) for s in response.split() if s.isdigit()]
     return numberList[0] if len(numberList) == 1 else numberList[1]
