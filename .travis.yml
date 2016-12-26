@@ -4,7 +4,7 @@ python:
   - "3.5"
 install:
   - python setup.py install
-script: python -m unittest
+script: python -m unittest discover . "*_test.py"
 branches:
   only:
     - master

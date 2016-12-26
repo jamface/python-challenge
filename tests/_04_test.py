@@ -21,6 +21,7 @@ def run():
 
 class TestFixture(unittest.TestCase):
 
+    @unittest.skip('Skipping 04 run due to time consuming urllib calls.')
     def test_run(self):
         self.assertTrue(run())
 
