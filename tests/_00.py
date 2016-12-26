@@ -1,5 +1,6 @@
 import unittest
 
+
 class TestFixture(unittest.TestCase):
 
     def test_solution(self):

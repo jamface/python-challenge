@@ -2,6 +2,8 @@
 
 Solutions for the [Python Challenge](http://www.pythonchallenge.com/) with Python 3.5
 
+The solutions for each challenge can be found in the corresponding python module in the 'tests' directory
+
 ## Links
 
 * 0: http://www.pythonchallenge.com/pc/def/0.html
