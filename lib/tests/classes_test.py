@@ -43,7 +43,7 @@ class ReportingDequeTest(unittest.TestCase):
     def test_dequeReportWithCallback(self):
         for letter in 'report':
             self.deque.append(letter)
-        regex = re.compile(r'^([a-z]){3}$')
+        regex = re.compile(r'^ort$')
         conditionFn = lambda x: regex.match(x)
         self.assertTrue(self.deque.report(condition=conditionFn))
         callbackFn = lambda x: x[1]

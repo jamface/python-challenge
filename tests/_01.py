@@ -12,6 +12,7 @@ MIN_ASCII = 97
 MAX_ASCII = 121
 ASCII_REDUCE = 26
 
+# Not moved to lib/functions.py as str.maketrans() is preferred
 def decipherChar(char):
     """
     Return the deciphered value of a character
@@ -23,6 +24,7 @@ def decipherChar(char):
         ord_value = ord_value - ASCII_REDUCE
     return chr(ord_value  + CIPHER)
 
+# Not moved to lib/functions.py as str.maketrans() is preferred
 def decipherString(input):
     """
     Return the deciphered String
