@@ -3,8 +3,7 @@ language: python
 python:
   - "3.5"
 install:
-  - pip install .
-  - python setup.py -q install
+  - python setup.py install
 script: python util/tests/classes_test.py
 branches:
   only:
