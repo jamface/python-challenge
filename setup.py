@@ -6,4 +6,6 @@ setup(name='python-challenge',
       author='Jamface',
       url='https://github.com/jamface/python-challenge',
       packages=['util'],
-      data_files=[('', ['res/*.txt', 'res/*.zip'])])
+      data_files=[('res', ['res/equality.txt',
+                           'res/ocr.txt',
+                           'res/*.zip'])])
