@@ -1,4 +1,4 @@
-from lib.classes import ReportingDeque
+from util.classes import ReportingDeque
 import unittest
 import re
 

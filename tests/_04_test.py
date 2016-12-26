@@ -1,4 +1,4 @@
-from lib.functions import get_url_resource, get_last_number
+from util.functions import get_url_resource, get_last_number
 import unittest
 
 

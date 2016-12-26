@@ -1,7 +1,11 @@
+sudo: true
 language: python
 python:
   - "3.5"
-script: pytest
+install:
+  - pip install .
+  - python setup.py -q install
+script: python util/tests/classes_test.py
 branches:
   only:
     - master

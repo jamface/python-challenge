@@ -1,4 +1,4 @@
-from lib.functions import get_url_resource, get_last_number, create_dir_run_func
+from util.functions import get_url_resource, get_last_number, create_dir_run_func
 import unittest
 import shutil
 import os

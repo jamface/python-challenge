@@ -1,4 +1,4 @@
-from lib.functions import get_url_resource
+from util.functions import get_url_resource
 import unittest
 import pickle
 
