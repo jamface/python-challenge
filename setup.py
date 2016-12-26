@@ -6,5 +6,4 @@ setup(name='python-challenge',
       author='Jamface',
       url='https://github.com/jamface/python-challenge',
       packages=['util'],
-      package_data={'', ('res/*.txt', 'res/*.zip')},
-      include_package_data=True)
+      data_files=[('', ['res/*.txt', 'res/*.zip'])])
