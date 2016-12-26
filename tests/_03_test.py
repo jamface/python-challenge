@@ -11,7 +11,7 @@ class TestFixture(unittest.TestCase):
         conditionFn = lambda x: regex.match(x)
         callbackFn = lambda x: x[4]
         result = []
-        with open('../res/equality.txt', 'r') as f:
+        with open('res/equality.txt', 'r') as f:
             read_data = f.read()
             for letter in read_data:
                 if letter == '\n':

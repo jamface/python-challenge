@@ -5,6 +5,7 @@ import pickle
 
 class TestFixture(unittest.TestCase):
 
+    @unittest.skip('Skipping 05 run due to time consuming urllib calls.')
     def test_pickle(self):
         result = get_url_resource('http://www.pythonchallenge.com/pc/def/banner.p', decoding=None)
         for line in pickle.loads(result):

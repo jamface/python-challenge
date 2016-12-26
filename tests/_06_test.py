@@ -9,7 +9,7 @@ class TestFixture(unittest.TestCase):
             zip_ref.extractall("../out/05")
 
     def test_stub(self):
-        print('you got to this test fixture!')
+        pass
 
 
 if __name__ == '__main__':
