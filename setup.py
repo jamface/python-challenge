@@ -8,4 +8,4 @@ setup(name='python-challenge',
       packages=['util'],
       data_files=[('res', ['res/equality.txt',
                            'res/ocr.txt',
-                           'res/*.zip'])])
+                           'res/channel.zip'])])
