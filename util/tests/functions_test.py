@@ -27,6 +27,10 @@ class GetLastNumberTest(unittest.TestCase):
                   'is 82683. Look only for the next nothing and the next nothing is 63579')
         self.assertEqual(63579, get_last_number(sample))
 
+    def test_bytesObject(self):
+        sample = b'welcome to my zipped list.\n\nhint1: start from 90052\nhint2: answer is inside the zip\n'
+        self.assertEqual(90052, get_last_number(sample))
+
 
 class CreateDirRunFuncTest(unittest.TestCase):
 

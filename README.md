@@ -13,3 +13,4 @@ Solutions for the [Python Challenge](http://www.pythonchallenge.com/) with Pytho
 * 4: http://www.pythonchallenge.com/pc/def/linkedlist.php
 * 5: http://www.pythonchallenge.com/pc/def/peak.html
 * 6: http://www.pythonchallenge.com/pc/def/channel.html
+* 7: http://www.pythonchallenge.com/pc/def/oxygen.html
