@@ -1,8 +1,8 @@
 # The Python Challenge
 
-Solutions for the [Python Challenge](http://www.pythonchallenge.com/) with Python 3.5
+[![Build Status](https://travis-ci.org/jamface/python-challenge.svg?branch=master)](https://travis-ci.org/jamface/python-challenge)
 
-The solutions for each challenge can be found in the corresponding python module in the 'tests' directory
+Solutions for the [Python Challenge](http://www.pythonchallenge.com/) with Python 3.5. Each solution can be found in the corresponding python module in the 'tests' directory.
 
 ## Links
 
