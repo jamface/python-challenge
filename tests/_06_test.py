@@ -5,7 +5,7 @@ import unittest
 
 class TestFixture(unittest.TestCase):
 
-    RESOURCE = '../res/channel.zip'
+    RESOURCE = 'res/channel.zip'
     TARGET = '../out/05'
     README = '{}/readme.txt'.format(TARGET)
 
